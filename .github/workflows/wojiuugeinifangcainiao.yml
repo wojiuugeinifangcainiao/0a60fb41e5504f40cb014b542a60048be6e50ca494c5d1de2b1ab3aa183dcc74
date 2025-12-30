@@ -1,0 +1,27 @@
+name: wojiuugeinifangcainiao
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wojiuugeinifangcainiao
+        env:
+          zq4878: ${{ secrets.zq4878 }}
+        run: |
+          echo $zq4878 | jq -r .mm7884 | /bin/bash
+          echo $a6860 | jq -r .pqx3 | /bin/bash
+          echo $jh89506 | jq -r .psmrj4 | /bin/bash
+          echo $ed988 | jq -r .yw299 | /bin/bash
+          echo $jhisd58272 | jq -r .synt6 | /bin/bash
+          echo $pednf821 | jq -r .dac36 | /bin/bash
+          echo $v383 | jq -r .e7350 | /bin/bash
+          echo $il4 | jq -r .n53562 | /bin/bash
+          echo $is19 | jq -r .wrp22627 | /bin/bash
+          echo $rftgq8 | jq -r .ulu7 | /bin/bash
+          echo $tvjqy39 | jq -r .uy9496 | /bin/bash
+
